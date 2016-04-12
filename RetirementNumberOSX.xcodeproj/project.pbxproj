@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC62D73B1CBD287000A182D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC62D73A1CBD287000A182D7 /* AppDelegate.swift */; };
+		FC62D73D1CBD287000A182D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC62D73C1CBD287000A182D7 /* ViewController.swift */; };
+		FC62D73F1CBD287000A182D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC62D73E1CBD287000A182D7 /* Assets.xcassets */; };
+		FC62D7421CBD287000A182D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC62D7401CBD287000A182D7 /* Main.storyboard */; };
+		FC62D74D1CBD287100A182D7 /* RetirementNumberOSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC62D74C1CBD287100A182D7 /* RetirementNumberOSXTests.swift */; };
+		FC62D7581CBD287100A182D7 /* RetirementNumberOSXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC62D7571CBD287100A182D7 /* RetirementNumberOSXUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC62D7491CBD287000A182D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC62D72F1CBD287000A182D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC62D7361CBD287000A182D7;
+			remoteInfo = RetirementNumberOSX;
+		};
+		FC62D7541CBD287100A182D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC62D72F1CBD287000A182D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC62D7361CBD287000A182D7;
+			remoteInfo = RetirementNumberOSX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC62D7371CBD287000A182D7 /* RetirementNumberOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetirementNumberOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC62D73A1CBD287000A182D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC62D73C1CBD287000A182D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC62D73E1CBD287000A182D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC62D7411CBD287000A182D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC62D7431CBD287000A182D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC62D7481CBD287000A182D7 /* RetirementNumberOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetirementNumberOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC62D74C1CBD287100A182D7 /* RetirementNumberOSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetirementNumberOSXTests.swift; sourceTree = "<group>"; };
+		FC62D74E1CBD287100A182D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC62D7531CBD287100A182D7 /* RetirementNumberOSXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetirementNumberOSXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC62D7571CBD287100A182D7 /* RetirementNumberOSXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetirementNumberOSXUITests.swift; sourceTree = "<group>"; };
+		FC62D7591CBD287100A182D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC62D7341CBD287000A182D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC62D7451CBD287000A182D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC62D7501CBD287100A182D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC62D72E1CBD287000A182D7 = {
+			isa = PBXGroup;
+			children = (
+				FC62D7391CBD287000A182D7 /* RetirementNumberOSX */,
+				FC62D74B1CBD287000A182D7 /* RetirementNumberOSXTests */,
+				FC62D7561CBD287100A182D7 /* RetirementNumberOSXUITests */,
+				FC62D7381CBD287000A182D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC62D7381CBD287000A182D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC62D7371CBD287000A182D7 /* RetirementNumberOSX.app */,
+				FC62D7481CBD287000A182D7 /* RetirementNumberOSXTests.xctest */,
+				FC62D7531CBD287100A182D7 /* RetirementNumberOSXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC62D7391CBD287000A182D7 /* RetirementNumberOSX */ = {
+			isa = PBXGroup;
+			children = (
+				FC62D73A1CBD287000A182D7 /* AppDelegate.swift */,
+				FC62D73C1CBD287000A182D7 /* ViewController.swift */,
+				FC62D73E1CBD287000A182D7 /* Assets.xcassets */,
+				FC62D7401CBD287000A182D7 /* Main.storyboard */,
+				FC62D7431CBD287000A182D7 /* Info.plist */,
+			);
+			path = RetirementNumberOSX;
+			sourceTree = "<group>";
+		};
+		FC62D74B1CBD287000A182D7 /* RetirementNumberOSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC62D74C1CBD287100A182D7 /* RetirementNumberOSXTests.swift */,
+				FC62D74E1CBD287100A182D7 /* Info.plist */,
+			);
+			path = RetirementNumberOSXTests;
+			sourceTree = "<group>";
+		};
+		FC62D7561CBD287100A182D7 /* RetirementNumberOSXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC62D7571CBD287100A182D7 /* RetirementNumberOSXUITests.swift */,
+				FC62D7591CBD287100A182D7 /* Info.plist */,
+			);
+			path = RetirementNumberOSXUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC62D7361CBD287000A182D7 /* RetirementNumberOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC62D75C1CBD287100A182D7 /* Build configuration list for PBXNativeTarget "RetirementNumberOSX" */;
+			buildPhases = (
+				FC62D7331CBD287000A182D7 /* Sources */,
+				FC62D7341CBD287000A182D7 /* Frameworks */,
+				FC62D7351CBD287000A182D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RetirementNumberOSX;
+			productName = RetirementNumberOSX;
+			productReference = FC62D7371CBD287000A182D7 /* RetirementNumberOSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC62D7471CBD287000A182D7 /* RetirementNumberOSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC62D75F1CBD287100A182D7 /* Build configuration list for PBXNativeTarget "RetirementNumberOSXTests" */;
+			buildPhases = (
+				FC62D7441CBD287000A182D7 /* Sources */,
+				FC62D7451CBD287000A182D7 /* Frameworks */,
+				FC62D7461CBD287000A182D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC62D74A1CBD287000A182D7 /* PBXTargetDependency */,
+			);
+			name = RetirementNumberOSXTests;
+			productName = RetirementNumberOSXTests;
+			productReference = FC62D7481CBD287000A182D7 /* RetirementNumberOSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC62D7521CBD287100A182D7 /* RetirementNumberOSXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC62D7621CBD287100A182D7 /* Build configuration list for PBXNativeTarget "RetirementNumberOSXUITests" */;
+			buildPhases = (
+				FC62D74F1CBD287100A182D7 /* Sources */,
+				FC62D7501CBD287100A182D7 /* Frameworks */,
+				FC62D7511CBD287100A182D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC62D7551CBD287100A182D7 /* PBXTargetDependency */,
+			);
+			name = RetirementNumberOSXUITests;
+			productName = RetirementNumberOSXUITests;
+			productReference = FC62D7531CBD287100A182D7 /* RetirementNumberOSXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC62D72F1CBD287000A182D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Henry Arias";
+				TargetAttributes = {
+					FC62D7361CBD287000A182D7 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					FC62D7471CBD287000A182D7 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FC62D7361CBD287000A182D7;
+					};
+					FC62D7521CBD287100A182D7 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FC62D7361CBD287000A182D7;
+					};
+				};
+			};
+			buildConfigurationList = FC62D7321CBD287000A182D7 /* Build configuration list for PBXProject "RetirementNumberOSX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC62D72E1CBD287000A182D7;
+			productRefGroup = FC62D7381CBD287000A182D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC62D7361CBD287000A182D7 /* RetirementNumberOSX */,
+				FC62D7471CBD287000A182D7 /* RetirementNumberOSXTests */,
+				FC62D7521CBD287100A182D7 /* RetirementNumberOSXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC62D7351CBD287000A182D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC62D73F1CBD287000A182D7 /* Assets.xcassets in Resources */,
+				FC62D7421CBD287000A182D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC62D7461CBD287000A182D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC62D7511CBD287100A182D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC62D7331CBD287000A182D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC62D73D1CBD287000A182D7 /* ViewController.swift in Sources */,
+				FC62D73B1CBD287000A182D7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC62D7441CBD287000A182D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC62D74D1CBD287100A182D7 /* RetirementNumberOSXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC62D74F1CBD287100A182D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC62D7581CBD287100A182D7 /* RetirementNumberOSXUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC62D74A1CBD287000A182D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC62D7361CBD287000A182D7 /* RetirementNumberOSX */;
+			targetProxy = FC62D7491CBD287000A182D7 /* PBXContainerItemProxy */;
+		};
+		FC62D7551CBD287100A182D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC62D7361CBD287000A182D7 /* RetirementNumberOSX */;
+			targetProxy = FC62D7541CBD287100A182D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC62D7401CBD287000A182D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC62D7411CBD287000A182D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC62D75A1CBD287100A182D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC62D75B1CBD287100A182D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FC62D75D1CBD287100A182D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RetirementNumberOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = henryarias011.mac.com.RetirementNumberOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC62D75E1CBD287100A182D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RetirementNumberOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = henryarias011.mac.com.RetirementNumberOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC62D7601CBD287100A182D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RetirementNumberOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = henryarias011.mac.com.RetirementNumberOSXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RetirementNumberOSX.app/Contents/MacOS/RetirementNumberOSX";
+			};
+			name = Debug;
+		};
+		FC62D7611CBD287100A182D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RetirementNumberOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = henryarias011.mac.com.RetirementNumberOSXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RetirementNumberOSX.app/Contents/MacOS/RetirementNumberOSX";
+			};
+			name = Release;
+		};
+		FC62D7631CBD287100A182D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RetirementNumberOSXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = henryarias011.mac.com.RetirementNumberOSXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RetirementNumberOSX;
+			};
+			name = Debug;
+		};
+		FC62D7641CBD287100A182D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RetirementNumberOSXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = henryarias011.mac.com.RetirementNumberOSXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RetirementNumberOSX;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC62D7321CBD287000A182D7 /* Build configuration list for PBXProject "RetirementNumberOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC62D75A1CBD287100A182D7 /* Debug */,
+				FC62D75B1CBD287100A182D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC62D75C1CBD287100A182D7 /* Build configuration list for PBXNativeTarget "RetirementNumberOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC62D75D1CBD287100A182D7 /* Debug */,
+				FC62D75E1CBD287100A182D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC62D75F1CBD287100A182D7 /* Build configuration list for PBXNativeTarget "RetirementNumberOSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC62D7601CBD287100A182D7 /* Debug */,
+				FC62D7611CBD287100A182D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC62D7621CBD287100A182D7 /* Build configuration list for PBXNativeTarget "RetirementNumberOSXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC62D7631CBD287100A182D7 /* Debug */,
+				FC62D7641CBD287100A182D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC62D72F1CBD287000A182D7 /* Project object */;
+}
