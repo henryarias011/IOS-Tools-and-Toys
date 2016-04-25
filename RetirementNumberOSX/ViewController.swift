@@ -16,16 +16,16 @@ func ** (num: Double, power: Double) -> Double{
 
 
 class ViewController: NSViewController {
-    class RetirementNumber {
+    private class RetirementNumber {
         // class properties and values
-        var currentSalary: Double
-        var salaryPercent: Double
-        var inflationRate: Double
-        var socialSecurity: Double
-        var retirementYears: Double
-        var needForRetirement: Double
-        var currentSavings: Double
-        var yearsInRetirement: Double
+        private  var currentSalary: Double
+        private var salaryPercent: Double
+        private  var inflationRate: Double
+        private var socialSecurity: Double
+        private  var retirementYears: Double
+        private var needForRetirement: Double
+        private  var currentSavings: Double
+        private var yearsInRetirement: Double
         //default value initializer
         init () {
             self.currentSalary = 50000
@@ -36,9 +36,9 @@ class ViewController: NSViewController {
             self.needForRetirement = 60000
             self.currentSavings = 50000
             self.yearsInRetirement = 25
-        
+            
         }
-        func calculatedSalaryNeed () -> Double {
+        private  func calculatedSalaryNeed () -> Double {
             var calculatedSalary: Double = 0.0
             if self.currentSalary > 0.0 {
                 let calculatedSalaryResult = ((((((self.currentSalary) * (self.salaryPercent))
@@ -46,20 +46,18 @@ class ViewController: NSViewController {
                     * (self.yearsInRetirement - 5)) - (self.currentSavings))
                 
                 calculatedSalary = calculatedSalaryResult
-               
+                
             }
             return calculatedSalary
         }
     }
     
-  
-   
-
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-    
         
-
         // Do any additional setup after loading the view.
         // set some currency and percent format styles
         // set some default values
@@ -78,7 +76,7 @@ class ViewController: NSViewController {
         
         
     }
-
+    
     
     // get values from text input boxes
     @IBOutlet weak var salaryPercent: NSTextField!
@@ -94,7 +92,7 @@ class ViewController: NSViewController {
     
     
     
-   
+    
     
     @IBAction func calculate(sender: NSButton) {
         
@@ -107,26 +105,26 @@ class ViewController: NSViewController {
         computedRetirementNumber.retirementYears = yearsToRetirement.doubleValue
         computedRetirementNumber.yearsInRetirement = yearsInRetirement.doubleValue
         //if userIsEnteringData { will use this later on
-            let calculatedSalaryRetirement = computedRetirementNumber.calculatedSalaryNeed()
-            fundsNeededForRetirement.doubleValue = calculatedSalaryRetirement
-       //format for currency to display in the Funds needed for Retirement Textbox
+        let calculatedSalaryRetirement = computedRetirementNumber.calculatedSalaryNeed()
+        fundsNeededForRetirement.doubleValue = calculatedSalaryRetirement
+        //format for currency to display in the Funds needed for Retirement Textbox
         let format = NSNumberFormatter()
         format.numberStyle = .CurrencyStyle
         
         fundsNeededForRetirement.stringValue = (format.stringFromNumber(calculatedSalaryRetirement))!
-      
-                    print(calculatedSalaryRetirement) // for testing output only
         
-    
+        print(calculatedSalaryRetirement) // for testing output only
+        
+        
     }
-
-
-   override var representedObject: AnyObject? {
+    
+    
+    override var representedObject: AnyObject? {
         didSet {
-        // Update the view, if already loaded.
+            // Update the view, if already loaded.
         }
     }
-
+    
 }
 
 

@@ -475,6 +475,7 @@
 				FC62D75E1CBD287100A182D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC62D75F1CBD287100A182D7 /* Build configuration list for PBXNativeTarget "RetirementNumberOSXTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +484,7 @@
 				FC62D7611CBD287100A182D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC62D7621CBD287100A182D7 /* Build configuration list for PBXNativeTarget "RetirementNumberOSXUITests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +493,7 @@
 				FC62D7641CBD287100A182D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
